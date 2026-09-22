@@ -3,14 +3,14 @@ Developed an IoT-based Environmental Data Logger using LPC2148, LM35, and MQ-2 s
 
 
 # FEATURES:
-1)Real-time temperature monitoring using LM35 sensor.
-2)Gas leakage detection using MQ-2 sensor.
-3)16x2 LCD display for live sensor readings and system status.
-4)ESP-01 Wi-Fi module for cloud connectivity.
-5)Uploads sensor data to ThingSpeak.
-6)Buzzer/LED alert when gas is detected or temperature exceeds the set limit.
-7)EEPROM (AT24C256) stores the temperature set point.
-8)Cloud data can be exported to Excel for reports and analysis.
+1)Real-time temperature monitoring using LM35 sensor.\
+2)Gas leakage detection using MQ-2 sensor.\
+3)16x2 LCD display for live sensor readings and system status.\
+4)ESP-01 Wi-Fi module for cloud connectivity.\
+5)Uploads sensor data to ThingSpeak.\
+6)Buzzer/LED alert when gas is detected or temperature exceeds the set limit.\
+7)EEPROM (AT24C256) stores the temperature set point.\
+8)Cloud data can be exported to Excel for reports and analysis.\
 
 
 # BLOCK DIAGRAM:
@@ -18,22 +18,22 @@ Developed an IoT-based Environmental Data Logger using LPC2148, LM35, and MQ-2 s
 
 
 # HARDWARE COMPONENTS:
-1)LPC2148 ARM7 Microcontroller
-2)ESP-01 Wi-Fi Module
-3)LM35 Temperature Sensor
-4)MQ-2 Gas Sensor
-5)AT24C256 EEPROM (I2C
-6)16x2 LCD Display
-7)Buzzer/LED
-8)Power Supply (3.3V / 5V)
-9)Keypad(4x4).
+1)LPC2148 ARM7 Microcontroller\
+2)ESP-01 Wi-Fi Module\
+3)LM35 Temperature Sensor\
+4)MQ-2 Gas Sensor\
+5)AT24C256 EEPROM (I2C)\
+6)16x2 LCD Display\
+7)Buzzer/LED\
+8)Power Supply (3.3V / 5V)\
+9)Keypad(4x4).\
 
 
 # SOFTWARE USED:
-1)Keil µVision.
-2)Flash Magic.
-3)Embedded C Programming.
-4)ThingSpeak Cloud Platform.
+1)Keil µVision.\
+2)Flash Magic.\
+3)Embedded C Programming.\
+4)ThingSpeak Cloud Platform.\
 
 
 # WORKING:
