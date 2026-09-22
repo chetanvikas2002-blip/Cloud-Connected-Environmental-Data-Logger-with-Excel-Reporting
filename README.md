@@ -1,0 +1,2 @@
+# Cloud-Connected-Environmental-Data-Logger-with-Excel-Reporting
+Developed an IoT-based Environmental Data Logger using LPC2148, LM35, and MQ-2 sensors to monitor temperature and gas levels in real time. Data is transmitted via ESP-01 Wi-Fi to ThingSpeak for cloud monitoring and Excel reporting. The system features EEPROM- based threshold storage, LCD display, and buzzer alerts for abnormal conditions
