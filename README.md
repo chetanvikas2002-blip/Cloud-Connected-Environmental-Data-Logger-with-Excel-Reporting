@@ -11,3 +11,7 @@ Developed an IoT-based Environmental Data Logger using LPC2148, LM35, and MQ-2 s
 6)Buzzer/LED alert when gas is detected or temperature exceeds the set limit.
 7)EEPROM (AT24C256) stores the temperature set point.
 8)Cloud data can be exported to Excel for reports and analysis.
+
+
+# BLOCK DIAGRAM:
+<img width="1043" height="697" alt="WhatsApp Image 2026-09-22 at 6 58 56 PM" src="https://github.com/user-attachments/assets/42f2ade5-4b9c-4d74-8a50-c2d9c3edf9db" />
