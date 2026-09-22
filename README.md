@@ -111,35 +111,35 @@ The system continuously repeats the following process:
 Read Sensors → Get RTC Time → Display on LCD → Compare Thresholds → Activate Alarm → Upload Data → Repeat
 This enables continuous environmental monitoring, cloud-based data logging, and historical analysis.
 
-# Overall Working: The LPC2148 collects temperature and gas sensor data, adds timestamps using the RTC, displays the information on an LCD, stores the temperature set point in EEPROM, and uploads sensor readings to ThingSpeak through the ESP-01 Wi-Fi module.
+Overall Working: The LPC2148 collects temperature and gas sensor data, adds timestamps using the RTC, displays the information on an LCD, stores the temperature set point in EEPROM, and uploads sensor readings to ThingSpeak through the ESP-01 Wi-Fi module.
 
 
 # FLOW CHART:
-Initialize LCD
+Initialize LCD\
       |
-Initialize UART
+Initialize UART\
       |
-Initialize I2C
+Initialize I2C\
       |
-Initialize ADC
+Initialize ADC\
       |
-Connect ESP-01 to Wi-Fi
+Connect ESP-01 to Wi-Fi\
       |
-Read LM35 Temperature
+Read LM35 Temperature\
       |
-Read MQ-2 Gas Sensor
+Read MQ-2 Gas Sensor\
       |
-Display Values on LCD
+Display Values on LCD\
       |
-Compare Temperature with Set Point
+Compare Temperature with Set Point\
       |
-If Temperature High or Gas Detected:
+If Temperature High or Gas Detected:\
       |
-Turn ON Buzzer
-Send Data to ThingSpeak
-Store Set Point in EEPROM
+Turn ON Buzzer\
+Send Data to ThingSpeak\
+Store Set Point in EEPROM\
       |
-Repeat Monitoring.
+Repeat Monitoring.\
 
 
 # PROJECT STRUCTURE:
@@ -165,13 +165,13 @@ Final_Majorp/
 # OUTPUT:
 The system provides the following outputs:
 
-1)Real-time temperature monitoring.
-2)Gas leakage detection and alert generation.
-3)Date and time display using RTC.
-4)Permanent temperature set point storage in EEPROM.
-5)Wi-Fi-based cloud monitoring using ESP-01.
-6)ThingSpeak graphical visualization.
-Excel/CSV report generation for recorded environmental data.
+1)Real-time temperature monitoring.\
+2)Gas leakage detection and alert generation.\
+3)Date and time display using RTC.\
+4)Permanent temperature set point storage in EEPROM.\
+5)Wi-Fi-based cloud monitoring using ESP-01.\
+6)ThingSpeak graphical visualization.\
+Excel/CSV report generation for recorded environmental data.\
 
 
 # THINKSPEAK INTEGERATION:
@@ -193,20 +193,20 @@ Field 3 - Temperature set point.
 
 
 # APPLICATIONS:
-1)Environmental Monitoring
-2)Smart Home Safety
-3)Gas Leakage Detection
-4)Industrial Monitoring
-5)IoT Data Logging
-6)Cloud-Based Sensor Monitoring.
+1)Environmental Monitoring\
+2)Smart Home Safety\
+3)Gas Leakage Detection\
+4)Industrial Monitoring\
+5)IoT Data Logging\
+6)Cloud-Based Sensor Monitoring.\
 
 
 # FUTURE SCOPE:
-1)Add humidity sensor (DHT11/DHT22).
-2)Mobile app notifications.
-3)Email/SMS alerts.
-4)Multiple sensor support.
-5)SD card data backup.
+1)Add humidity sensor (DHT11/DHT22).\
+2)Mobile app notifications.\
+3)Email/SMS alerts.\
+4)Multiple sensor support.\
+5)SD card data backup.\
 
 
 # AUTHOR
