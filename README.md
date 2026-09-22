@@ -10,7 +10,7 @@ Developed an IoT-based Environmental Data Logger using LPC2148, LM35, and MQ-2 s
 5)Uploads sensor data to ThingSpeak.\
 6)Buzzer/LED alert when gas is detected or temperature exceeds the set limit.\
 7)EEPROM (AT24C256) stores the temperature set point.\
-8)Cloud data can be exported to Excel for reports and analysis.\
+8)Cloud data can be exported to Excel for reports and analysis.
 
 
 # BLOCK DIAGRAM:
@@ -26,14 +26,14 @@ Developed an IoT-based Environmental Data Logger using LPC2148, LM35, and MQ-2 s
 6)16x2 LCD Display\
 7)Buzzer/LED\
 8)Power Supply (3.3V / 5V)\
-9)Keypad(4x4).\
+9)Keypad(4x4).
 
 
 # SOFTWARE USED:
 1)Keil µVision.\
 2)Flash Magic.\
 3)Embedded C Programming.\
-4)ThingSpeak Cloud Platform.\
+4)ThingSpeak Cloud Platform.
 
 
 # WORKING:
@@ -139,26 +139,26 @@ Turn ON Buzzer\
 Send Data to ThingSpeak\
 Store Set Point in EEPROM\
       |
-Repeat Monitoring.\
+Repeat Monitoring.
 
 
 # PROJECT STRUCTURE:
 Final_Majorp/
-├── main.c
-├── uart.c
-├── uart.h
-├── lcd.c
-├── lcd.h
-├── adc.c
-├── adc.h
-├── esp01.c
-├── esp01.h
-├── i2c.c
-├── i2c.h
-├── eeprom.c
-├── eeprom.h
-├── delay.c
-├── delay.h
+├── main.c\
+├── uart.c\
+├── uart.h\
+├── lcd.c\
+├── lcd.h\
+├── adc.c\
+├── adc.h\
+├── esp01.c\
+├── esp01.h\
+├── i2c.c\
+├── i2c.h\
+├── eeprom.c\
+├── eeprom.h\
+├── delay.c\
+├── delay.h\
 └── README.md.
 
 
@@ -171,7 +171,7 @@ The system provides the following outputs:
 4)Permanent temperature set point storage in EEPROM.\
 5)Wi-Fi-based cloud monitoring using ESP-01.\
 6)ThingSpeak graphical visualization.\
-Excel/CSV report generation for recorded environmental data.\
+Excel/CSV report generation for recorded environmental data.
 
 
 # THINKSPEAK INTEGERATION:
@@ -198,7 +198,7 @@ Field 3 - Temperature set point.
 3)Gas Leakage Detection\
 4)Industrial Monitoring\
 5)IoT Data Logging\
-6)Cloud-Based Sensor Monitoring.\
+6)Cloud-Based Sensor Monitoring.
 
 
 # FUTURE SCOPE:
@@ -206,7 +206,7 @@ Field 3 - Temperature set point.
 2)Mobile app notifications.\
 3)Email/SMS alerts.\
 4)Multiple sensor support.\
-5)SD card data backup.\
+5)SD card data backup.
 
 
 # AUTHOR
