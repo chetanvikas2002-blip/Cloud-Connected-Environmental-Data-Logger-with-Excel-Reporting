@@ -14,7 +14,7 @@ Developed an IoT-based Environmental Data Logger using LPC2148, LM35, and MQ-2 s
 
 
 # BLOCK DIAGRAM:
-<img width="1043" height="697" alt="WhatsApp Image 2026-09-22 at 6 58 56 PM" src="https://github.com/user-attachments/assets/42f2ade5-4b9c-4d74-8a50-c2d9c3edf9db" />
+<img width="1043" height="580" alt="WhatsApp Image 2026-09-23 at 6 32 11 PM" src="https://github.com/user-attachments/assets/f29d188a-2a70-4091-8778-b58e919f1151" />
 
 
 # HARDWARE COMPONENTS:
@@ -185,7 +185,9 @@ Field 3 - Temperature set point.
 
 
 # CLOUD OUTPUT:
-<img width="635" height="903" alt="WhatsApp Image 2026-09-22 at 7 01 32 PM" src="https://github.com/userattachments/assets/91dbaeb9-f2cf-4cea-9382-2db069f041fb" />
+<img width="474" height="325" alt="WhatsApp Image 2026-09-23 at 6 29 53 PM" src="https://github.com/user-attachments/assets/3177e561-643c-409b-9ce2-a0983bc6b85f" />
+<img width="475" height="323" alt="WhatsApp Image 2026-09-23 at 6 30 00 PM" src="https://github.com/user-attachments/assets/2b1f3424-9caa-43cd-a39d-67fc21250b6c" />
+<img width="477" height="328" alt="WhatsApp Image 2026-09-23 at 6 30 07 PM" src="https://github.com/user-attachments/assets/eef0b74e-96ae-4b5d-90d4-2392497eadb7" />
 
 
 # HARDWARE CONNECTIONS:
